@@ -6,3 +6,5 @@ The design of the database schema was based Star schemas. In the schemas, there 
 
 #### Implementation
 the programme was designed to run in a Docker container but can also be revised to run without Docker
+
+`` docker pull postgres ``
