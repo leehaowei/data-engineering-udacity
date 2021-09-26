@@ -6,3 +6,7 @@ The design of the database schema was based Star schemas. In the schemas, there 
 
 #### Implementation
 The programme was designed to run in a Docker container but can also be revised to run without Docker.
+example command to create a container to run Cassandra
+```bash
+docker run --name cassandra -p 127.0.0.1:9042:9042 --network some-network -d cassandra
+```
